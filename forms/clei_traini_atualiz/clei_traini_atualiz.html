@@ -1,0 +1,99 @@
+<html>
+<head>
+	<link type="text/css" rel="stylesheet" href="/portal/resources/style-guide/css/fluig-style-guide.min.css"/>
+	<script type="text/javascript" src="/portal/resources/js/jquery/jquery.js"></script>
+	<script type="text/javascript" src="/portal/resources/js/jquery/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="/portal/resources/js/mustache/mustache-min.js"></script>
+	<script type="text/javascript" src="/style-guide/js/fluig-style-guide.min.js" charset="utf-8"></script>
+	<script type="text/javascript" src="clei_traini_atualiz.js"></script>
+	<link type="text/css" href="estilo.css" rel="stylesheet">
+</head>
+<body>
+<div class="fluig-style-guide">
+<form name="form" role="form" class="form-inline">
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<label for="panel-1">Dados do Solicitante</label>
+		</div>
+		<div class="panel-body">
+			<div class="row">
+				<div class="col-md-4">
+					<input type="text" name="nome" id="nome" class="form-control" placeholder="Nome"/>
+				</div>
+				<div class="col-md-4">
+					<input type="email" name="email" id="email" class="form-control" placeholder="Email"/>
+				</div>
+				<div class="col-md-3">
+					<input type="text" name="cel" id="cel" class="form-control" placeholder="Celular"/>
+				</div>
+			</div>
+			<div id="div-panel-2">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<label for="endereco">Endereço</label>
+					</div>
+					<div class="panel-body">
+						<div class="row">
+							<div class="col-md-2">
+								<input type="text" name="cep" id="cep" class="form-control" placeholder="CEP">
+							</div>
+							<div class="col-md-4">
+								<input type="text" name="rua" id="rua" class="form-control" placeholder="Rua">
+							</div>
+							<div class="col-md-2">
+								<input type="text" name="numero" id="numero" class="form-control" placeholder="Nº">
+							</div>
+							<div class="col-md-2">
+								<input type="text" name="bairro" id="bairro" class="form-control" placeholder="Bairro">
+							</div>
+							<div class="col-md-2">
+								<input type="text" name="uf" id="uf" class="form-control" placeholder="Estado">
+							</div>
+						</div>
+						<div id="div-opcaoBanc" class="row">
+							<div class=" form-group col-md-12">
+								<div class="div-label">
+									<label for="opcoes">Deseja inserir dados Bancários</label>
+								</div>
+								<div class="col-md-1">
+									<label class="radio-inline">
+										<input type="radio" name="rd_banco" id="rd_banco" value="sim">Sim
+									</label>
+								</div>
+								<div class="col-md-1">
+									<label class="radio-inline">
+										<input type="radio" name="rd_banco" id="rd_banco" value="nao">Não
+									</label>
+								</div>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+			<div id="div-panel-3">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<label for="dados-banc">Dados Bancários</label>
+					</div>
+					<div class="panel-body">
+						<div class="col-md-6">
+							<input type="text" name="banco" id="banco" class="form-control" placeholder="Nome do Banco">
+						</div>
+						<div class="col-md-2">
+							<input type="text" name="ag" id="ag" class="form-control" placeholder="Nº Agência">
+						</div>
+						<div class="col-md-2">
+							<input type="text" name="conta" id="conta" class="form-control" placeholder="N° Conta">
+						</div>
+						<div class="col-md-2">
+							<input type="text" name="dig" id="dig" class="form-control" placeholder="Digito">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</form>
+</div>
+</body>
+</html>

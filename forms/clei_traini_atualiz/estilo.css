@@ -1,0 +1,29 @@
+/* Placeholder */
+::-webkit-input-placeholder {
+    text-transform: none;
+    font-style: italic;
+    font-size: 13px;
+}
+/* Espaço entre div's */
+#div-panel-2{
+	padding-top: 15px;
+}
+#div-opcaoBanc{
+    padding-top: 15px; 
+}
+/* Campos */
+#nome{
+    width: 400px;
+}
+#email{
+    width: 400px;
+}
+#cel{
+    width: 300px;
+}
+#rua{
+    width: 400px;
+}
+#banco{
+    width: 600px;
+}
